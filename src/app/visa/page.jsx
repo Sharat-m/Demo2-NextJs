@@ -1,7 +1,7 @@
 import Image from "next/image";
-import styles from "./about.module.css";
+import styles from "./visa.module.css";
 
-const AboutPage = () => {
+const VisaPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
@@ -18,15 +18,15 @@ const AboutPage = () => {
         </p>
         <div className={styles.boxes}>
           <div className={styles.box}>
-            <h1>10K+</h1>
+            <h1>5K+</h1>
             <p>Year of experience</p>
           </div>
           <div className={styles.box}>
-            <h1>10K+</h1>
+            <h1>5K+</h1>
             <p>Year of experience</p>
           </div>
           <div className={styles.box}>
-            <h1>10K+</h1>
+            <h1>5K+</h1>
             <p>Year of experience</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const AboutPage = () => {
       <div className={styles.imgContainer}>
         <Image
           src="/about.png"
-          alt="about image"
+          alt="visa image"
           fill
           className={styles.img}
         />
@@ -43,4 +43,4 @@ const AboutPage = () => {
     </div>
   );
 };
-export default AboutPage;
+export default VisaPage;

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import styles from "./contact.module.css";
-const ContactPage = () => {
+import styles from "./nomad.module.css";
+const NomadPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
@@ -24,4 +24,4 @@ const ContactPage = () => {
     </div>
   );
 };
-export default ContactPage;
+export default NomadPage;

@@ -1,9 +1,10 @@
 .container{
-    background-color: rgb(255, 124, 194);
-    height: 100px;
+    background-color: rgb(24, 31, 204);
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: gray solid 2px;
 
 }
 .logo{
